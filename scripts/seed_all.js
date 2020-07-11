@@ -1,11 +1,11 @@
-//seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+seed //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
 
 //data is expected to be in .tsv files, see readme for details on expected file formatting and naming
 
 require("dotenv").config({ path: __dirname + "/../"});
 
-// process.env.NODE_ENV = "seedProduction";
-process.env.NODE_ENV = "development";
+process.env.NODE_ENV = "seedProduction";
+//process.env.NODE_ENV = "development";
 
 const fileLocation = "/../data/";
 const year = "2018";
