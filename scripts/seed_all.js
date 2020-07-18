@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+=======
+<<<<<<< HEAD
+seed //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+=======
+//seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+>>>>>>> Initalal AI
+>>>>>>> Label change
 
 //data is expected to be in .tsv files, see readme for details on expected file formatting and naming
 
@@ -7,6 +15,10 @@ require("dotenv").config({ path: __dirname + "/../"});
 <<<<<<< HEAD
 process.env.NODE_ENV = "seedProduction";
 //process.env.NODE_ENV = "development";
+=======
+// process.env.NODE_ENV = "seedProduction";
+process.env.NODE_ENV = "development";
+>>>>>>> Initalal AI
 
 const fileLocation = "/../data/";
 const year = "2018";
