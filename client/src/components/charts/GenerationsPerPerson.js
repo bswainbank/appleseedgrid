@@ -127,7 +127,7 @@ export default function () {
                 },
                 scaleLabel: {
                     display: true,
-                    labelString: "Metric Tons"
+                    labelString: "Megawatt Hours"
                     }
               }],
               xAxes: [{

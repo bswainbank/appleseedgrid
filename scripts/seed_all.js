@@ -1,4 +1,4 @@
-seed //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+//seeder file written by Letty Bedard for the Appleseed Grid Visualization project
 
 //data is expected to be in .tsv files, see readme for details on expected file formatting and naming
 
@@ -9,7 +9,6 @@ process.env.NODE_ENV = "seedProduction";
 
 const fileLocation = "/../data/";
 const year = "2018";
-
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
 const db = require("../models");
@@ -111,8 +110,6 @@ fs.readFile(__dirname + fileLocation + year + "_generator_test.tsv", "utf8", (er
     //we don't want to get retired plants
     return (!(row["GENSTAT"] === "RE"));
   });
-
-  // console.table(generatorData);
 });
 
 const seedMe = async () => {
@@ -182,6 +179,8 @@ const seedMe = async () => {
 
   //fill generation table, use id from plantInfo
 };
+
+//console.log(db)
 
 db.sequelize.sync({ 
   force: true 
