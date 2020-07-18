@@ -1,0 +1,22 @@
+  .App {
+      background-color: #FFFFFF;
+  }
+
+  .MapDiv {
+    background-color: #FFFFFF;
+  }
+
+  .mainTitle {
+    color: #006837;
+    padding: 1rem;
+  }
+
+  path {
+      opacity: 0.75;
+      pointer-events: all;
+  }
+
+  path:hover {
+      opacity: 0.40;
+      cursor: pointer;
+  }
