@@ -1,11 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
 =======
+=======
+>>>>>>> Label change
 <<<<<<< HEAD
 seed //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
 =======
 //seeder file written by Letty Bedard for the Appleseed Grid Visualization project
 >>>>>>> Initalal AI
+<<<<<<< HEAD
+>>>>>>> Label change
+=======
+=======
+//seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+>>>>>>> First Appleseed
 >>>>>>> Label change
 
 //data is expected to be in .tsv files, see readme for details on expected file formatting and naming
@@ -22,6 +31,7 @@ process.env.NODE_ENV = "development";
 
 const fileLocation = "/../data/";
 const year = "2018";
+<<<<<<< HEAD
 =======
 // process.env.NODE_ENV = "seedProduction";
 process.env.NODE_ENV = "development";
@@ -30,6 +40,8 @@ const fileLocation = "/../data/";
 const year = "2018";
 
 >>>>>>> Iniital AI
+=======
+>>>>>>> Label change
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
 const db = require("../models");
@@ -132,10 +144,13 @@ fs.readFile(__dirname + fileLocation + year + "_generator_test.tsv", "utf8", (er
     return (!(row["GENSTAT"] === "RE"));
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
   // console.table(generatorData);
 >>>>>>> Iniital AI
+=======
+>>>>>>> Label change
 });
 
 const seedMe = async () => {
@@ -207,10 +222,15 @@ const seedMe = async () => {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //console.log(db)
 
 =======
 >>>>>>> Iniital AI
+=======
+//console.log(db)
+
+>>>>>>> Label change
 db.sequelize.sync({ 
   force: true 
 }).then(async function() {
