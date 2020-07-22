@@ -33,7 +33,7 @@ function ControlledTabs() {
             </Tab>
             <Tab eventKey="totalCo2Emissions" title="CO2 Emissions">
              </Tab>
-             <Tab eventKey="co2EmissionsPerMWH" title="CO2 Emissions/mWh">
+             <Tab eventKey="co2EmissionsPerMWH" title="CO2 Emissions/MWh">
              </Tab>
              <Tab eventKey="GenerationsPerPerson" title="Generation Per Capita">
              </Tab>
@@ -58,7 +58,7 @@ function ControlledTabs() {
         >
             <Tab eventKey="totalCo2Emissions" title="CO2 Emissions">
              </Tab>
-             <Tab eventKey="co2EmissionsPerMWH" title="CO2 Emissions/mWh">
+             <Tab eventKey="co2EmissionsPerMWH" title="CO2 Emissions/MWh">
              </Tab>
              <Tab eventKey="co2EmissionsPerPerson" title="CO2 Emissions Per Capita">
              </Tab>

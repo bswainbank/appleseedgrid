@@ -4,11 +4,20 @@
 
 require("dotenv").config({ path: __dirname + "/../"});
 
+<<<<<<< HEAD
 process.env.NODE_ENV = "seedProduction";
 //process.env.NODE_ENV = "development";
 
 const fileLocation = "/../data/";
 const year = "2018";
+=======
+// process.env.NODE_ENV = "seedProduction";
+process.env.NODE_ENV = "development";
+
+const fileLocation = "/../data/";
+const year = "2018";
+
+>>>>>>> Iniital AI
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
 const db = require("../models");
@@ -110,6 +119,11 @@ fs.readFile(__dirname + fileLocation + year + "_generator_test.tsv", "utf8", (er
     //we don't want to get retired plants
     return (!(row["GENSTAT"] === "RE"));
   });
+<<<<<<< HEAD
+=======
+
+  // console.table(generatorData);
+>>>>>>> Iniital AI
 });
 
 const seedMe = async () => {
@@ -180,8 +194,11 @@ const seedMe = async () => {
   //fill generation table, use id from plantInfo
 };
 
+<<<<<<< HEAD
 //console.log(db)
 
+=======
+>>>>>>> Iniital AI
 db.sequelize.sync({ 
   force: true 
 }).then(async function() {

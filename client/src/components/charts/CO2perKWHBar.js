@@ -75,7 +75,7 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `CO2 Emissions Per Total mWh`,
+              text: `CO2 Emissions Per Total MWh`,
               fontSize: 24
             },
             scales: {
@@ -86,7 +86,7 @@ export default function () {
                 },
                 scaleLabel: {
                 display: true,
-                labelString: "Metric Tons/mWh"
+                labelString: "Metric Tons/MWh"
                 }
               }],
               xAxes: [{

@@ -11,9 +11,9 @@ function SingleTable({ plants }) {
           <th>Plant Name</th>
           <th>Fuel Category</th>
           <th>Primary Fuel Source</th>
-          <th>Annual Net Generation (mWh)</th>
+          <th>Annual Net Generation (MWh)</th>
           <th>Annual CO2 Emission (tons)</th>
-          <th>Annual CO2 Emission/mWh (lbs/mWh)</th>
+          <th>Annual CO2 Emission/MWh (lbs/MWh)</th>
           <th>Click To See Plant Location</th>
         </tr>
       </thead>
